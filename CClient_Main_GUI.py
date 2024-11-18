@@ -10,7 +10,7 @@ BTN_IMAGE = "./Images/GUI - button.png"
 BG_IMAGE = "./Images/Volunteering_MAIN_PIC.png"
 FONT = "Calibri"
 FONT_BUTTON = (FONT, 16)
-
+#///
 
 class CClientGUI(CClientBL):
 
