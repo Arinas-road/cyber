@@ -7,7 +7,7 @@ import json
 from CProtocol import *
 
 BTN_IMAGE = "./Images/GUI - button.png"
-BG_IMAGE = "./Images/GUI - BG.png"
+BG_IMAGE = "./Images/Volunteering_MAIN_PIC.png"
 FONT = "Calibri"
 FONT_BUTTON = (FONT, 16)
 
@@ -55,7 +55,7 @@ class CClientGUI(CClientBL):
         self._canvas.create_image(0, 0, anchor="nw", image=self._img_bg)
 
         # Add labels, the same as.. add text on canvas
-        self._canvas.create_text(90, 50, text='Client', font=('Calibri', 28), fill='#808080')
+        self._canvas.create_text(90, 50, text='Volunteering CLient', font=('Calibri', 28), fill='#808080')
         self._canvas.create_text(50, 130, text='IP:', font=FONT_BUTTON, fill='#000000', anchor='w')
         self._canvas.create_text(50, 180, text='Port:', font=FONT_BUTTON, fill='#000000', anchor='w')
         self._canvas.create_text(50, 230, text='Send:', font=FONT_BUTTON, fill='#000000', anchor='w')
